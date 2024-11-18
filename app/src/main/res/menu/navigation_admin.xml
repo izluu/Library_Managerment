@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QLPM"
+        android:title="Quản lý Phiếu Mượn"
+        android:icon="@drawable/home" />
+    <item android:id="@+id/QLSach"
+        android:title="Quản lý Sách"
+        android:icon="@drawable/book" />
+
+    <group>
+        <item android:title="Member">
+            <item android:id="@+id/QLTV"
+                android:title="Quản lý thành viên"
+                android:icon="@drawable/member" />
+
+        </item>
+    </group>
+    <group>
+        <item android:title="Other">
+            <item android:id="@+id/ThongKe"
+                android:title="Thống kê"
+                android:icon="@drawable/chart" />
+        </item>
+    </group>
+</menu>

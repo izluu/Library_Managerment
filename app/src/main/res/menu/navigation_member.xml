@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QLPM"
+        android:title="Quản lý Phiếu Mượn"
+        android:icon="@drawable/home" />
+    <group>
+        <item android:title="Account">
+            <item android:id="@+id/DoiMatKhau"
+                android:title="Đổi Mật Khẩu"
+                android:icon="@drawable/chart" />
+        </item>
+    </group>
+</menu>
